@@ -28,11 +28,11 @@
         }
     </style>
     <script type="text/javascript">
-        (function(window,document,src){var config=window.__shwps;if(typeof config==="undefined"){config=function(){config.c(arguments)};config.q=[];config.c=function(args){config.q.push(args)};window.__shwps=config;var s=document.createElement('script');s.type='text/javascript';s.async=!0;s.src=src;var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x)}})(window,document,'https://www.myshowpass.com/static/dist/sdk.js')
+        (function(window,document,src){var config=window.__shwps;if(typeof config==="undefined"){config=function(){config.c(arguments)};config.q=[];config.c=function(args){config.q.push(args)};window.__shwps=config;var s=document.createElement('script');s.type='text/javascript';s.async=!0;s.src=src;var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x)}})(window,document,'https://beta.showpass.com/static/dist/sdk.js')
     </script>
 </head>
 <body>
-    <div class="center clicky" onclick="showpass.tickets.eventPurchaseWidget('patrons-circle')">Click for widget!</div>
-    <div class="center2 clicky2" onclick="showpass.tickets.checkoutWidget({'keep-shopping': true})">Checkout!</div>
+    <a class="center clicky" onclick="showpass.tickets.eventPurchaseWidget('event-late-in-the-day');return false;">Click for widget!</a>
+    <a class="center2 clicky2" onclick="showpass.tickets.checkoutWidget({'keep-shopping': true});return false;">Checkout!</a>
 </body>
 </html>
